@@ -2345,6 +2345,9 @@ section.lazy-placeholder:after {
 .cid-uOAJMZbJ1I input::-webkit-calendar-picker-indicator {
   display: none;
 }
+.cid-uOAJMZbJ1I H4 {
+  text-align: center;
+}
 .cid-uNRJAH7eka {
   padding-top: 30px;
   padding-bottom: 30px;
