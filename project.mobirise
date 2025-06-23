@@ -58,7 +58,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "mcSmartCart": {
       "currency": "USD"
     }
@@ -1731,24 +1731,6 @@
           "_protectedParams": [],
           "_global": true,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "eb-music-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-music-widget",
-          "_sourceTheme": "storem4",
-          "_customHTML": "<section class=\"elb-widgets eb-music-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>MUSIC PLAYER WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-music-widget/assets/player.jpg\">    </div></div></section>",
-          "_cid": "uOTGSExMxn",
-          "_anchor": "eb-music-widget-1e",
-          "safe": {
-            "id": 38300,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxFNs\"></div>"
-          },
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
           "_params": {}
         }
       ]
