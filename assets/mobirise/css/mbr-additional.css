@@ -2233,6 +2233,11 @@ section.lazy-placeholder:after {
 .cid-uNRHKyGb5B .mbr-text,
 .cid-uNRHKyGb5B .mbr-section-btn {
   color: #000000;
+  text-align: center;
+}
+.cid-uNRHKyGb5B .mbr-title,
+.cid-uNRHKyGb5B .underline {
+  text-align: center;
 }
 .cid-uNRJAH7eka {
   padding-top: 30px;
