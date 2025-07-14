@@ -593,7 +593,7 @@
           },
           "_name": "header3",
           "_sourceTheme": "storem4",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/rcr2.jpg-1281x700.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#FFA0A4\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=mj47XNE4tk4\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffc0cb\" condition=\"overlay && bg.type !== 'color'&&gradientOverlay\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Linear/Radial Gradient\" name=\"typeGradient\" condition=\"gradientOverlay\" checked>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container align-left\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Escape to Tranquility on Rocky Creek in Lucedale, MS</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle,mbr-section-btn\">\n                    <i>Your new favorite shopify template</i>\n                </h3>\n                \n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">5295 Agricola Latonia Rd, Lucedale, MS 39452</p>\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-center pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"tel:(251) 508-7590\" data-app-placeholder=\"Type Text\">(251) 508-7590</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/rcr2.jpg-1281x700.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#FFA0A4\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=mj47XNE4tk4\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" condition=\"overlay && bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffc0cb\" condition=\"overlay && bg.type !== 'color'&&gradientOverlay\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Linear/Radial Gradient\" name=\"typeGradient\" condition=\"gradientOverlay\" checked>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container align-left\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Escape to Tranquility on Rocky Creek in Lucedale, MS</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle,mbr-section-btn\">\n                    <i>Your new favorite shopify template</i>\n                </h3>\n                \n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">5295 Agricola Latonia Rd, Lucedale, MS 39452</p>\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-center pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"tel:(251) 508-7590\" data-app-placeholder=\"Type Text\">(251) 508-7590</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "uNRyvLUnll",
           "_anchor": "header3-b",
           "_PHPplaceholders": [],
@@ -1215,6 +1215,45 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(90deg, @bgColor, @color2)"
+            },
+            ".container-fluid": {
+              "padding": "0 3rem"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".container-fluid": {
+                "padding": "0 1rem"
+              },
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video1",
+          "_sourceTheme": "storem4",
+          "_customHTML": "<section group=\"Images & Videos\" class=\"video1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\" step=\"1\" condition=\"fullWidth == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\" step=\"1\" condition=\"fullWidth == false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"96\" step=\"1\" condition=\"fullWidth == false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffc0cb\" condition=\"fullWidth == false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth == false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#7ccbf1\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container-fluid':fullWidth == false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=zYK8T4jlhi0&list=PLFFt9gDayFkpmlDVqqAQUOb6DIj12JuKq&index=1&loop=1&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "uQSB2GgJ5y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video1-1n"
+        },
+        {
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -1478,45 +1517,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background": "@bgColor",
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(90deg, @bgColor, @color2)"
-            },
-            ".container-fluid": {
-              "padding": "0 3rem"
-            },
-            ".video-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".container-fluid": {
-                "padding": "0 1rem"
-              },
-              ".video-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "video1",
-          "_sourceTheme": "storem4",
-          "_customHTML": "<section group=\"Images & Videos\" class=\"video1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth == false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#b2ccd2\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container-fluid':fullWidth == false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=zYK8T4jlhi0&list=PLFFt9gDayFkpmlDVqqAQUOb6DIj12JuKq&index=1&loop=1&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
-          "_cid": "uQSB2GgJ5y",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "video1-1n"
         },
         {
           "alias": false,
