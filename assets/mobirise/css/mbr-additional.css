@@ -2167,13 +2167,14 @@ section.lazy-placeholder:after {
 }
 .cid-uQSB2GgJ5y {
   background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .cid-uQSB2GgJ5y .container-fluid {
   padding: 0 3rem;
 }
 .cid-uQSB2GgJ5y .video-block {
   margin: auto;
-  width: 100% !important;
 }
 @media (max-width: 767px) {
   .cid-uQSB2GgJ5y .container-fluid {
