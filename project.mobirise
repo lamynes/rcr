@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 58,
+    "uniqCompNum": 60,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -1047,7 +1047,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/image000000-1.jpg-1130x522.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -1064,26 +1064,6 @@
                 "text": "Shallow Sandy Areas for small Children",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlayOpacity": "0.3"
-              },
-              {
-                "image": "@THEME_PATH@/components/_images/background1.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": false,
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=zYK8T4jlhi0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-2",
-                "customStyle3": "display-4",
-                "alt": "Rocky Creek Retreat",
-                "title": "",
-                "textTitle": "IMAGE SLIDE",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Rocky Creek Retreat",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.2"
               }
             ]
           }
@@ -1235,6 +1215,45 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(90deg, @bgColor, @color2)"
+            },
+            ".container-fluid": {
+              "padding": "0 3rem"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".container-fluid": {
+                "padding": "0 1rem"
+              },
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video1",
+          "_sourceTheme": "storem4",
+          "_customHTML": "<section group=\"Images & Videos\" class=\"video1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth == false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth == false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#b2ccd2\" condition=\"gradientBg && fullWidth == false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container-fluid':fullWidth == false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=zYK8T4jlhi0&list=PLFFt9gDayFkpmlDVqqAQUOb6DIj12JuKq&index=1&loop=1&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "uQSB2GgJ5y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video1-1n"
+        },
+        {
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -1327,6 +1346,24 @@
           "_anchor": "header8-v",
           "_isUserblock": true,
           "_cid": "uNS5yo1vyM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "eb-youtube-feed",
+          "_isSecondary": true,
+          "_styles": {},
+          "_name": "eb-youtube-feed",
+          "_sourceTheme": "storem4",
+          "_customHTML": "<section class=\"eb-youtube-feed\" group=\"Widget\"><script src=\"https://s.electricblaze.com/widget.js\" defer=\"\"></script>\n<div class=\"electricblaze-id-2UhxFNf\"></div></section>",
+          "_cid": "uQSz3lC2qA",
+          "_anchor": "eb-youtube-feed-1m",
+          "safe": {
+            "id": 38287,
+            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxFNf\"></div>"
+          },
           "_protectedParams": [],
           "_global": false,
           "_once": false,
