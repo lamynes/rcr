@@ -1075,6 +1075,9 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.5;
 }
+.cid-u9VFTeonLG {
+  text-shadow: 2px 10px 15px black;
+}
 .cid-u9VFTeonLG .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
@@ -1503,6 +1506,9 @@ section.lazy-placeholder:after {
     left: -1rem;
   }
 }
+.cid-u9VFTeonLG .mbr-figure {
+  box-shadow: 10px 10px 15px black;
+}
 .cid-uNRyvLUnll {
   background-image: url("../../../assets/images/rcr2.jpg-1281x700.jpg");
 }
@@ -1922,7 +1928,10 @@ section.lazy-placeholder:after {
 }
 .cid-uNREmLoi3q .mbr-text,
 .cid-uNREmLoi3q .card-btn {
-  color: #232323;
+  color: #000000;
+}
+.cid-uNREmLoi3q .mbr-figure {
+  box-shadow: 10px 10px 15px black;
 }
 .cid-uNRCrMVMKS {
   padding-top: 60px;
